@@ -1,13 +1,84 @@
 <html>
-<body>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>红包领取成功，打开支付宝可以使用</title>
+<title>红包领取成功，打开支付宝可以使用....</title>
+<body>
+    <img src="https://gw.alipayobjects.com/zos/rmsportal/VBekNOWGyWTKvkQMAOWm.png"></img>
 </body>
-<script>
-    var str = "%u652F%u4ED8%u5B9D%u53D1%u7EA2%u5305%u5566%uFF01%u5373%u65E5%u8D77%u8FD8%u6709%u673A%u4F1A%u989D%u5916%u83B7%u5F97%u4F59%u989D%u5B9D%u6D88%u8D39%u7EA2%u5305%uFF01%u957F%u6309%u590D%u5236%u6B64%u6D88%u606F%uFF0C%u6253%u5F00%u6700%u65B0%u7248%u652F%u4ED8%u5B9D%u5C31%u80FD%u9886%u53D6%uFF01JgZydN76OH";
-    str = unescape(str);
+</html>
+
+
+<!DOCTYPE html>
+<html style="font-size: 50px;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>领取红包</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="data-aspm" content="a308">
+
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1, viewport-fit=cover">
+    <script>
+    window.vl(100, 750);var str = unescape("%u652F%u4ED8%u5B9D%u53D1%u7EA2%u5305%u5566%uFF01%u5373%u65E5%u8D77%u8FD8%u6709%u673A%u4F1A%u989D%u5916%u83B7%u5F97%u4F59%u989D%u5B9D%u6D88%u8D39%u7EA2%u5305%uFF01%u957F%u6309%u590D%u5236%u6B64%u6D88%u606F%uFF0C%u6253%u5F00%u6700%u65B0%u7248%u652F%u4ED8%u5B9D%u5C31%u80FD%u9886%u53D6%uFF01JgZydN76OH");
     const el = document.createElement('textarea');el.value = str;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);
-</script>
+    </script>
+    <script>
+        // 适配iPhone X
+        var ua = window.navigator.userAgent.toLowerCase();
+        var isIphoneX = window.screen.height === 812 && /iphone/.test(ua);
+        if (isIphoneX) {
+            var viewport = document.querySelector("meta[name=viewport]");
+            var _content = viewport.getAttribute('content') + ', viewport-fit=cover';
+            viewport.setAttribute('content', _content);
+        }
+    </script>
+
+    <meta name="Alipay:title" content="领取红包">
+    <meta name="Alipay:imgUrl" content="https://t.alipayobjects.com/images/rmsweb/T1mQxhXbRXXXXXXXXX.png">
+    <meta name="Alipay:desc" content="">
+
+    <meta name="fengdie:pkg" content="relay@1.5.43">
+    <meta name="fengdie:aid" content="56290">
+    <meta name="fengdie:pid" content="107589">
+    <meta name="fengdie:domain" content="http://render.4g71r1.com">
+
+    <body data-aspm="b6429" class="env_not_alipay">
+
+
+
+        <main style="background: linear-gradient(-129deg, rgb(51, 94, 204) 100%, rgb(34, 72, 168) 100%);">
+            <header id="header-container">
+                <img class="header-title" src="https://gw.alipayobjects.com/zos/rmsportal/VBekNOWGyWTKvkQMAOWm.png" style="width:5.01rem; margin-bottom:0.32rem;">
+            </header>
+            <section id="main-container">
+                <div class="redbag-container ">
+                    <!-- 红包 -->
+                    <img class="redbag" src="https://gw.alipayobjects.com/zos/rmsportal/vSkFvXtNFmNFUeePgGBH.png" style="margin-bottom:0.16rem">
+                    <div class="interactive-box" style="top:4.94rem;">
+                        <div class="redbag-input-box" data-tap="1">
+                            <input type="tel" id="redbag-tel-input" class="redbag-tel-input" placeholder="输入手机号，领红包">
+                            <button id="clear-tel-button" class="clear-tel-button" data-tap="1"></button>
+                        </div>
+                        <div class="info-tel" style="display: none"></div>
+                        <button id="redbag-button" class="main-button-v2 redbag-button" data-tap="1"> 立即领取 </button>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer-container"></footer>
+            <div id="mask" class="am-dialog-mask"></div>
+            <div class="h5-toast"></div>
+        </main>
+        <div id="lw-share-data" style="display:none;">
+            <div class="lws-title">领取红包</div>
+            <div class="lws-description"></div>
+            <div class="lws-image">https://t.alipayobjects.com/images/rmsweb/T1mQxhXbRXXXXXXXXX.png</div>
+            <div class="lws-link"></div>
+        </div>
+    </body>
+
 </html>
